@@ -28,11 +28,7 @@
           "height": 1
         }
       ],
-      "structure_overrides": [
-        "minecraft:strongholds",
-        "minecraft:mineshafts",
-        "minecraft:swamp_huts"
-      ]
+      "structure_overrides": "fuckezb:structures"
     }
   }
 }
