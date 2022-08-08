@@ -46,4 +46,4 @@ execute if score @s k.timer matches 1.. run function fuckezb:playing
 execute if score @s k.death matches 1.. run function fuckezb:dead
 
 # Win if no other player
-#execute if score .players k.values matches 1 as @a[scores={k.timer=0..}] run function fuckezb:winner
+execute if score .players k.values matches 1 as @a[scores={k.timer=0..}] run function fuckezb:winner
