@@ -12,7 +12,7 @@
           "height": 1
         },
         {
-          "block": "blackstone",
+          "block": "minecraft:blackstone",
           "height": 64
         },
         {
@@ -28,7 +28,11 @@
           "height": 1
         }
       ],
-      "structure_overrides": "minecraft:shipwrecks"
+      "structure_overrides": [
+        "minecraft:strongholds",
+        "minecraft:mineshafts",
+        "minecraft:swamp_huts"
+      ]
     }
   }
 }

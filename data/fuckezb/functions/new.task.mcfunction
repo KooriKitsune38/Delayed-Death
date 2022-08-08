@@ -1,6 +1,6 @@
 # Task timer
 scoreboard objectives add k.tasktime dummy
-scoreboard players set @s k.tasktime 1800
+scoreboard players set @s k.tasktime 2400
 
 # Tellraw
 tellraw @s {"text":""}

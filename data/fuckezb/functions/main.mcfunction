@@ -5,6 +5,7 @@
 # Build the world to have more advancements
 
 # Collect berries, collect pumpkin/melons,
+# NOT ENOUGH VISUALLY FUN (AND SOUNDS)
 
 # Gamerule
 gamerule keepInventory true
@@ -13,3 +14,10 @@ gamerule randomTickSpeed 300
 
 # As @a
 execute as @a at @s run function fuckezb:as.a
+
+# As Miner
+execute as @e[type=minecraft:area_effect_cloud,tag=k.miner] at @s run function fuckezb:miner/miner
+
+# Random Effect
+execute if score .effect k.values matches 7.. run scoreboard players reset .effect k.values
+scoreboard players add .effect k.values 1

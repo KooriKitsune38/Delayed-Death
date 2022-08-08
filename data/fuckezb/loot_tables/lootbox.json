@@ -19,6 +19,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:skeleton_horse_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Miner\",\"italic\":false}'},EntityTag:{id:\"minecraft:area_effect_cloud\",Particle:\"block_marker bell\",Radius:0f,Duration:61,Tags:[\"k.miner\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:diamond",
           "functions": [

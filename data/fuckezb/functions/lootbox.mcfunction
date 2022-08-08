@@ -1,5 +1,5 @@
-# Spawn Loot
-execute as @a[predicate=fuckezb:boots] at @s run loot give @s loot fuckezb:lootbox
+# Player
+execute as @a[predicate=fuckezb:boots] at @s run function fuckezb:lootbox.player
 
 # Schedule Again
-schedule function fuckezb:lootbox 45s replace
+schedule function fuckezb:lootbox 60s replace

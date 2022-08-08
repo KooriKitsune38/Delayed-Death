@@ -25,6 +25,7 @@ effect give @s regeneration 2 255 true
 
 # Start Schedule Lootbox
 schedule function fuckezb:lootbox 90s replace
+schedule function fuckezb:random/random 60s replace
 
 # SpawnPoint
 execute at @s run spawnpoint @s

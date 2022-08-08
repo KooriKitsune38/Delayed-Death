@@ -180,11 +180,9 @@
       "minecraft:ore_soul_sand"
     ],
     [
-      "minecraft:disk_sand"
-    ],
-    [
       "minecraft:spring_water"
     ],
+    [],
     [
       "minecraft:pile_hay",
       "minecraft:pile_melon",
@@ -199,6 +197,7 @@
       "minecraft:trees_grove",
       "minecraft:jungle_bush",
       "fuckezb:patch_cobweb",
+      "minecraft:bamboo_light",
       "minecraft:flower_flower_forest",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
@@ -207,7 +206,9 @@
       "fuckezb:patch_melon",
       "fuckezb:patch_pumpkin",
       "fuckezb:patch_berry_bush",
-      "fuckezb:patch_gold"
+      "fuckezb:patch_gold",
+      "minecraft:cave_vines",
+      "minecraft:fancy_oak_checked"
     ],
     [
       "minecraft:freeze_top_layer"

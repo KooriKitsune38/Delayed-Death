@@ -12,6 +12,7 @@ scoreboard players set .players k.values 0
 
 # Reset Schedule
 schedule clear fuckezb:lootbox
+schedule clear fuckezb:random/random
 
 # Gamemode Spectator
 gamemode spectator @a

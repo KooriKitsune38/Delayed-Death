@@ -16,10 +16,7 @@ recipe take @s minecraft:paper
 # Enchant
 enchant @s fortune 3
 enchant @s lure 3
-enchant @s efficiency 2
-
-# Effect
-effect give @s haste 1 3 true
+enchant @s efficiency 3
 
 # Teleport in dimension
 #execute if predicate fuckezb:overworld run function fuckezb:first.join
