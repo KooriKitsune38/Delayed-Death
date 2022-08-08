@@ -1,0 +1,26 @@
+{
+  "parent": "fuckezb:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "nbt": "{task:{name:\"destroynest\"}}"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fuckezb:adv.complete"
+  }
+}

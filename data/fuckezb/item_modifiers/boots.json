@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "fuckezb:database"
+    },
+    "ops": [
+      {
+        "source": "tag.task",
+        "target": "task",
+        "op": "merge"
+      },
+      {
+        "source": "tag.display",
+        "target": "display",
+        "op": "merge"
+      }
+    ]
+  }
+]

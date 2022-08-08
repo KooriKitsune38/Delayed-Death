@@ -1,0 +1,27 @@
+{
+  "parent": "fuckezb:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "nbt": "{task:{name:\"cironsword\"}}"
+                }
+              }
+            }
+          }
+        ],
+        "recipe": "minecraft:iron_sword"
+      }
+    }
+  },
+  "rewards": {
+    "function": "fuckezb:adv.complete"
+  }
+}

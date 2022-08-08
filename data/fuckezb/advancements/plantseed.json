@@ -1,0 +1,38 @@
+{
+  "parent": "fuckezb:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "nbt": "{task:{name:\"plantseed\"}}"
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "fuckezb:adv.complete"
+  }
+}

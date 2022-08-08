@@ -1,0 +1,38 @@
+{
+  "parent": "fuckezb:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "nbt": "{task:{name:\"choneycomb\"}}"
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bee_nest"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "fuckezb:adv.complete"
+  }
+}

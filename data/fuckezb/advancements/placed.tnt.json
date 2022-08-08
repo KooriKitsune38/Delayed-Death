@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "nbt": "{playing:1b}"
+                }
+              }
+            }
+          }
+        ],
+        "block": "minecraft:tnt"
+      }
+    }
+  },
+  "rewards": {
+    "function": "fuckezb:place.tnt"
+  }
+}
